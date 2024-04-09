@@ -16,7 +16,7 @@ import {
 } from "./chunk-6OIJHSGT.mjs";
 import {
   getEventAttendees
-} from "./chunk-U7FFIOXP.mjs";
+} from "./chunk-JJWL3RMT.mjs";
 import {
   getEvent
 } from "./chunk-ZHDKSZOW.mjs";
