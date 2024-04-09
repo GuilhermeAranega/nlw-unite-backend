@@ -2,7 +2,6 @@ import { FastifyInstance } from "fastify";
 import { ZodTypeProvider } from "fastify-type-provider-zod";
 import z from "zod";
 import { prisma } from "../lib/prisma";
-import { resolve } from "node:path/posix";
 
 export async function getEventAttendees(app: FastifyInstance) {
 	app.withTypeProvider<ZodTypeProvider>().get(

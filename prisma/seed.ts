@@ -24,7 +24,7 @@ async function seed() {
 		attendeesToInsert.push({
 			id: 10000 + i,
 			name: faker.person.fullName(),
-			email: faker.internet.email(),
+			email: faker.internet.email().toLowerCase(),
 			eventId,
 			createdAt: faker.date.recent({
 				days: 30,
