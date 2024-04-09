@@ -33,6 +33,13 @@ O sistema fará um scan da credencial do participante para permitir a entrada no
 
 Para documentação da API, acesse o link: https://nlw-unite-nodejs.onrender.com/docs
 
+## Uso e instalação
+
+1. Baixe o servidor backend através do comando `git clone https://github.com/GuilhermeAranega/nlw-unite-backend`
+2. Entre na pasta baixada com o comando `cd nlw-unite-backend`
+3. Instale as dependências do backend `npm i`
+4. Rode o servidor backend `npm run dev`
+
 ## Banco de dados
 
 Nessa aplicação vamos utilizar banco de dados relacional (SQL). Para ambiente de desenvolvimento seguiremos com o SQLite pela facilidade do ambiente.
